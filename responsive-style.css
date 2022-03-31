@@ -1,0 +1,139 @@
+@media (max-width:768px) {
+    .banner
+    {
+        padding: 1rem;
+    }
+    .content
+    {
+        width:75%;
+        margin: auto;
+        left:5rem;
+    }
+    .content h2
+    {
+        font-size: 3rem;
+    }
+    .content p
+    {
+        font-size: 1.6rem;
+    }
+    .btn
+    {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+    .btn span.fa
+    {
+        font-size: 1.2rem;
+    }
+    .nav
+    {
+        display: none;
+    }
+    .nav-responsive
+    {
+        position: fixed;
+        top:0;
+        left:0;
+        width:0;
+        height: 100%;
+        background: rgba(0 0 0 / 0.6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 100;
+        transition: 0.5s;
+        overflow: hidden;
+    }
+    .nav-responsive.open
+    {
+        width: 100%;
+    }
+    .nav-responsive ul
+    {
+        /* height: 100%;
+        width: 100%; */
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-responsive ul li
+    {
+        margin-block:1.3rem ;
+    }
+    .nav-responsive ul li a
+    {
+        font-size: 3rem;
+        color:#fff;
+    }
+    .nav-responsive ul li:hover a
+    {
+        color:#ffd700;
+        text-decoration: underline;
+    }
+    .logo
+    {
+        position: absolute;
+        top:1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 101;
+    }
+    .logo h1
+    {
+        font-size: 4rem;
+        text-transform: uppercase;
+        color:var(--white-color);
+    }
+    .menu
+    {
+        position: fixed;
+        top:1rem;
+        left:1rem;
+        width: 4rem;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #fff;
+        padding: 1rem;
+        border-radius: 1rem;
+        cursor: pointer;
+        z-index: 101;
+    }
+    .menu img
+    {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+  
+    }
+    .social-media
+    {
+       width: 3rem; 
+    }
+    .social-media ul li
+    {
+        width: 2rem;
+        height: 2rem;
+    }
+    .social-media ul li a i.fab
+    {
+        font-size: 1.2rem;
+    }
+    .footer
+    {
+        width: 80%;
+        margin: auto;
+    }
+    .footer .logos ul li
+    {
+        width: 2.4rem;
+        height: 2.4rem;
+        margin: 0 1rem;
+    }
+    .footer .copyright p,
+    .footer .copyright p span
+    {
+        font-size: 1.2rem;
+    }
+}
